@@ -144,8 +144,8 @@ def process_videos(model_path, video_folder="model-inference-video"):
 
 def main():
     # Configure paths
-    model_path = 'best_model.pt'  # Path to your trained model
-    video_folder = 'model-inference-video'  # Folder containing videos to process
+    model_path = 'model_97_acc_100_frames_FF_data.pt'  # Path to your trained model
+    video_folder = 'fake-test'  # Folder containing videos to process
     
     # Create output folder if it doesn't exist
     os.makedirs(video_folder, exist_ok=True)
